@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      .bigText {
+    height:30px;
+    width: 500px;
+    }
+    .dateText {
+    height:30px;
+    width: 300px;
+    }
+    .confirmbutton{
+      font: optional;
+      height: 40px;
+      width: 400px;
+    }
+</style>
+<body>
+    <h1><center>Booking Details</center></h1>
+    <form>
+        <h2>Name</h2>
+        <!-- <input type="text" placeholder="Enter your Name"> -->
+        <input type="text" class="bigText"  name=" item" align="left" placeholder="Enter Your Name"/>
+  
+        <br>
+        <h2>Email</h2>
+        <input type="text" class="bigText"  name=" item" align="left" placeholder="Enter Your Email"/>
+        <br>
+        <h2>Place</h2>
+        <input type="text" class="bigText"  name=" item" align="left" placeholder="Enter Your Place"/>
+        <br>
+        <h2>Choose the type of service</h2>
+        <!-- <label for="services">Choose a car:</label> -->
+<select name="Select a service" id="cars" class="bigText">
+    <option>Select a service</option>
+  <option value="Interior Wash">Interior Wash</option>
+  <option value="Primary Wash">Primary Wash</option>
+  <option value="ExternalWash">ExternalWash</option>
+  <option value="Complex Wash">Complex Wash</option>
+</select>
+<br>
+<br>
+<label for="dateforservice">Choose a date for Service</label>
+  <input type="date" class="dateText" id="servicedate" name="service">
+  <br>
+  <br>
+ <h1> <button class="bigText">Confirm Booking</button></h1>
+    </form>
+</body>
+</html>
